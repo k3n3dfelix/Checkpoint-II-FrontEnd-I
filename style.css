@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Road+Rage&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+     padding-left: 20px;
+     padding-right: 20px;
+     font-size: 25px;
+     font-family: Robolt;
+     font-weight: bold;
+     font-size: 30px;
+     color: wheat;
+}
+body {
+    background-image: url("./img/PonteHercilioLuz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+main {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+p {
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    text-indent: 20px;
+    text-align: justify;
+    color: rgb(36, 36, 36);
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 40px;
+}
+div {
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+iframe {
+    height: 515px;
+    width: 760px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.curiosidade {
+    width: 100%;
+    height: 40%;
+    position: relative;
+}   
+h2 {
+    text-align: center;
+    color: rgb(250, 250, 250);
+}
+ol {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+    font-size: 22px;
+}
+.youtube {
+  display: inline;
+  margin-left: 90%;
+  padding-top: 10px;
+}
+.instagram {
+    display: inline;
+    padding-left: 20px;
+}
+img {
+    border-radius: 10px;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+label {
+    display:flex;
+    flex-direction: column;
+    margin-bottom:10px;
+    border-radius:5px;
+    font-family: roboto;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+
+}
+input,textarea, select {
+    display:flex;
+    flex-direction: column;
+    margin-bottom:10px;
+    border-radius:5px;
+    font-family: Roboto;
+    font-weight: bold;
+
+}
+.checkbox {
+    display: flex;
+    gap: 15px;
+    color: beige;
+}
+
+fieldset {
+    border: none;
+    font-family: Roboto; 
+    color: rgb(2, 2, 2);
+}
+
+input, select {
+	background-color: rgb(221, 203, 203);
+	border: none;
+	padding: 6px;
+	border-radius: 12px;
+	font-weight: bold;
+	outline: 0;
+ 
+}
+select {
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+}
+.enviar{
+    color: rgb(15, 6, 6);
+    background-color:#74ec78;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 12px;
+    transition: 0.4s;
+    font-weight: bold;
+}
+.enviar:hover {
+    background-color: #19801d;
+   
+}
+.limpar{
+    color: rgb(15, 6, 6);
+    background-color:#eea5a5;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 12px;
+    transition: 0.4s;
+    font-weight: bold;
+}
+.limpar:hover {
+    background-color: #9c0e0e;
+}
+
+input[type="text"]:hover{
+    border: 1px solid #999;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+input[type="email"]:hover{
+    border: 1px solid #999;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+input[type="date"]:hover{
+    border: 1px solid #999;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.tituloForm {
+     color: beige;
+}
+.segTituloForm {
+    font-family: Roboto;
+    color: beige;
+}
+input[type="date"] {
+    width: 300px;
+    padding: 0;
+}
+option {
+    font-size: 16px;
+    font-weight: bold;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input[type="text"],[type="email"] {
+    width: 300px;
+    height: 40px;
+}
+
+#outros {
+    margin-left: 10px;
+}
